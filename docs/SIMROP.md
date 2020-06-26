@@ -621,9 +621,7 @@ The CAC Admin view is a view accessible by CAC Admin or whoever that has the CAC
 
 The dashboard has the analytics (in the form of graphs and charts) of all the dealer SIM registration and SIMROP activities. By default, the dashboard loads the analytics of all the dealers on SIMROP. However, each dealer’s analytics can be viewed by selecting the dealer from the KYC Dealer drop-down as shown in figure 26. The analytics on the dashboard includes; Kit activities, agent activities, registrations and SIMROP Operations. Also, the dashboard is the landing page for all users with CAC Admin role on SIMROP. Find the screenshot of the dealer dashboard in figure below:
 
-<!-- theme: danger -->
-> ##### Figure 1
-> CAC Admin Dashboard
+![CAC Admin Dashboard](../assets/images/Figure-26-CAC-Admin-Dashboard.png)
 
 Below is a list of analytics found on the dealer dashboard;
 - **Kit Status:** A pie chart that displays a count of kits based on their status (whitelisted/blacklisted). CAC Admin can view more details by clicking on a section of the pie chart. The corresponding view shows a list of the devices that make up the count on the selected section.
@@ -649,18 +647,12 @@ Below is a list of analytics found on the dealer dashboard;
 
 From this view, a CAC Admin user is able to view details of Agent Enrollment (for new and existing agents) done by a dealer from the dealer’s view. CAC Admin users are alerted once a user maps a kit.
 
-> ***Note:** Agent Enrollment Approval happens immediately a dealer is able to enrol an agent successfully.*
-> *Also, note that there is an approval workflow for Agent Enrollment Request for Non-Existing Agents/Users*
+**Note:** Agent Enrollment Approval happens immediately a dealer is able to enrol an agent successfully.
+Also, note that there is an approval workflow for Agent Enrollment Request for Non-Existing Agents/Users
 
-To access the Agent Enrollment view, the CAC Admin User should, on successful login, click on the Agent Enrollment menu item on the SIMROP menu as shown in AGE 1. This action navigates the dealer to Agent Enrollment landing page as shown in AGE 2 below:
+To access the Agent Enrollment view, the CAC Admin User should, on successful login, click on the Agent Enrollment menu item on the SIMROP menu, this action navigates the dealer to Agent Enrollment landing page as shown in the image below:
 
-<!-- theme: danger -->
-> ##### AGE 1
-> CAC Admin Menu (Agent Enrollment)
-
-<!-- theme: danger -->
-> ##### AGE 2
-> CAC Agent Enrollment View (Landing Page)
+![Agent Enrollment View](../assets/images/AGE-2-Agent-Enrollment-View.png)
 
 ***Note:** When there is an agent enrollment request from a dealer, the request is automatically approved by the system.*
 
@@ -669,52 +661,44 @@ To access the Agent Enrollment view, the CAC Admin User should, on successful lo
 To search for existing Agent Enrollment, 
 
 Visit the Agent Enrollment landing page
-  -	Enter either the device tag of the enrolled device as shown in AGE 3
-  -	Click on the Search button as shown in AGE 3 to display the result of the search based on the search details provided
+  -	Enter either the Kit tag or Device ID of the enrolled device
+  -	Click on the Search button to display the result
 
 Or
-  -	Click on More button as shown in AGE 3
+  -	Click on More button
   -	Select the desired search criteria from the listed drop-downs (CAC Admin user can select a dealer from the dealer drop-down)
-  -	Click on the Search button as shown in AGE 3 to display the result of the search based on the search criteria selected
+  -	Click on the Search button to display the result
 
-<!-- theme: success -->
-> ##### AGE 3
-> CAC Search & Advanced Search
+![CAC Search & Advanced Search](../assets/images/AGE-3-CAC-Search.png)
 
 ### View Mapping
 
 To view Agent Enrollment, the dealer should;
 
--	Search for the required kit (Refer to 4.2.1)
--	Click on the Actions Button as shown in AGE 4
--	Click on View Mapping Details as shown in AGE 4
+-	Search for the required kit
+-	Click on the Actions Button
+-	Click on View Mapping Details
 
-The actions above display the corresponding details of the kits as shown in AGE 5 below;
+![View Mapping Details](../assets/images/AGE-4-View-Mapping-Details.png)
 
-<!-- theme: success -->
-> ##### AGE 4
-> View Mapping Details
+The actions above display the corresponding details of the kits as shown below;
 
-<!-- theme: success -->
-> ##### AGE 5
-> View Mapping Details View
+![View Mapping Details View](../assets/images/AGE-5-View-Mapping-Details-View.png)
 
 ### Approve Agent Enrolment (Non-Existing Agents)
 
 To approve an Agent Enrolment request for non-existing agents, the admin is expected to do the following;
 
--	Search for the required kit (Refer to 4.2.1)
--	Click on the Actions Button as shown in AGE 4
--	Click on View Mapping Details as shown in AGE 5
--	The action above would display the view as shown in AGE 6
--	Enter the approval reason as shown in AGE 6
--	Click on the APPROVE button as shown AGE 6
+-	Search for the required kit
+-	Click on the Actions Button
+-	Click on View Mapping Details
+-	The action above would display the view
+-	Enter the approval reason
+-	Click on the APPROVE button
 
 If the request is approved, an account is created for the non-existing agent and the new agent account is mapped to the user. Also, a password is sent to the user on successful account creation.
 
-<!-- theme: success -->
-> ##### AGE 6
-> View Mapping Details view with Approval Panel
+![Approve Agent Enrolment](../assets/images/AGE-6-Mapping-Details-with-Approval.png)
 
 ## Issue Log View
 
@@ -725,15 +709,7 @@ On SIMROP, CAC Admins are able to resolve all issues logged by a dealer. When an
 To access the list of kit related issues logged by a dealer, a CAC Admin is expected to 
 -	Login successfully to SIMROP
 -	Click on Log Issues menu item. This action would drop down the sub-menu items
--	Click on Kit Issue Log as shown in ILA 1. This action would bring up the Kit Issues landing page as shown in ILA 2.
-
-<!-- theme: success -->
-> ##### ILA 1
-> Kit Issue Log (CAC Admin)
-
-<!-- theme: success -->
-> ##### ILA 2
-> Kit Issues Resolution Landing Page
+-	Click on Kit Issue Log. This action would bring up the Kit Issues landing page.
 
 From the kit issues landing page, a CAC Admin user can carry out the following activities;
 
@@ -742,53 +718,40 @@ From the kit issues landing page, a CAC Admin user can carry out the following a
 
 #### Search for an existing kit issue
 
-To search for an issue log sent in by a dealer, a CAC Admin user should do either of the following as shown in ILA 2;
+To search for an issue log sent in by a dealer, a CAC Admin user should do either of the following;
 -	Enter an Issue ID or Kit Tag and click on Search
 -	Select an Issue Summary and click on Search
 -	Select an Issue Status, then, click on Search
 -	Fill in all the fields with desired search criteria, then click on Search in order to narrow down the search result
 
+![Kit Issues Resolution](../assets/images/ILA-1-Kit-Issues-Resolution-Page.png)
+
 #### View Details
 
 On SIMROP, a CAC Admin user can view details an issue logged by a dealer;
 
-•	Searching for an issue as described in 4.3.1.1
-•	Click on the Action menu as shown in ILA 3
-•	Click on View Details as shown in ILA 3
+-	Searching for an issue
+-	Click on the Action menu
+-	Click on View Details
 
-<!-- theme: success -->
-> ##### ILA 3
-> View details (Issue Resolution)
-
-The actions above display the details of the issue logged by a dealer as shown in ILA 4.
-
-<!-- theme: success -->
-> ##### ILA 4
-> Resolve Kit Issue View
+![View Details(Kit Issue)](../assets/images/ILA-2-View-Details.png)
 
 #### Resolve Logged Issue
 
 On SIMROP, a CAC Admin user can view details an issue logged by a dealer;
 
--	Follow the steps in 4.3.1.2
--	Enter Resolution Feedback as shown in ILA 4 
--	Click on Resolve as shown in ILA 4
+-	Follow the steps in **View Details** Section
+-	Enter Resolution Feedback  
+-	Click on Resolve 
 
+![Resolve Kit Issue)](../assets/images/ILA-3-Resolve-Kit-Issue.png)
 
 ### User Related Issues (CAC Admin View)
 
 To access the list of user related issues logged by a dealer, a CAC Admin is expected to 
 -	Login successfully to SIMROP
 -	Click on Log Issues menu item. This action would drop down the sub-menu items
--	Click on User Issue Log as shown in ILA 5. This action would bring up the User Issues landing page as shown in ILA 6
-
-<!-- theme: success -->
-> ##### ILA 5
-> User Issue Log (CAC Admin)
-
-<!-- theme: success -->
-> ##### ILA 6
-> User Issues Resolution Landing Page
+-	Click on User Issue Log. This action would bring up the User Issues landing page.
 
 From the user issues landing page, a CAC Admin user can carry out the following activities;
 - Search for existing user issue
@@ -796,39 +759,31 @@ From the user issues landing page, a CAC Admin user can carry out the following 
 
 #### Search for existing user issue
 
-To search for an issue log sent in by a dealer, a CAC Admin user should do either of the following as shown in ILA 7;
+To search for an issue log sent in by a dealer, a CAC Admin user should do either of the following;
 -	Enter an Issue ID or User Tag and click on Search
 -	Select an Issue Summary and click on Search
 -	Select an Issue Status, then, click on Search
 -	Fill in all the fields with desired search criteria, then click on search in order to narrow down the search result
 
+![User Issues Resolution](../assets/images/ILA-4-User-Issues-Resolution.png)
+
 #### View Details
 
 On SIMROP, a CAC Admin user can view details an issue logged by a dealer;
--	Searching for an issue as described in 4.3.2.1
--	Click on the Action menu as shown in ILA 7
--	Click on View Details as shown in ILA 7
+-	Searching for an issue
+-	Click on the Action menu
+-	Click on View Details
 
-<!-- theme: success -->
-> ##### ILA 7
-> View Details (User Issue Resolution)
-
-<!-- theme: success -->
-> ##### ILA 8
-> View details (Issue Resolution)
-
-The actions above display the details of the issue logged by a dealer as shown in ILA 9.
-
-<!-- theme: success -->
-> ##### ILA 9
-> Resolve User Issue View
+![View Details(User Issue)](../assets/images/ILA-5-View-Details-User-Issues.png)
 
 #### Resolve Logged Issue
 
 On SIMROP, a CAC Admin user can view details an issue logged by a dealer;
--	Follow the steps in 4.3.2.2
--	Enter **Resolution Feedback** as shown in ILA 9 
--	Click on **Resolve** as shown in ILA 9
+-	Follow the steps in **View Details** Section
+-	Enter Resolution Feedback
+-	Click on Resolve
+
+![Resolve User Issue)](../assets/images/ILA-6-Resolve-User-Issue.png)
 
 ## B2B Request
 
@@ -892,14 +847,10 @@ Also, if a request is rejected, the dealer is notified and the device would stil
 ## Device Management
 The Device Management module is used to carry out all device related activities on SIMROP. Operations that can be carried out from the Device Management Module range from Tagging and Tagging Approval, Device requisition and Blacklist.
 
-The Device Management view can be accessed from the SIMROP menu as shown in DMGT 1 below
-
-<!-- theme: success -->
-> ##### DMGT 1
-> Device Management Menu
+The Device Management view can be accessed from the SIMROP menu.
 
 ### Blacklist View
-The Blacklist view is used to manage device status (blacklist and whitelist). Also, from the view, a user can see the count of the following in the SIM Registration ecosystem as shown in DMGT 2;
+The Blacklist view is used to manage device status (blacklist and whitelist). Also, from the view, a user can see the count of the following in the SIM Registration ecosystem;
 -	Total Kits
 -	Blacklisted Kits
 -	Whitelisted Kits
@@ -911,49 +862,33 @@ From Blacklist view, an admin can do the following;
 
 #### Blacklist a Device 
 To blacklist a device, the admin should do the following
--	Click on **Blacklist** from **Device Management** on SIMROP menu to access the Blacklist landing page as shown in DMGT 3
--	Search for the desired devices by entering the device **Kit Tag** or **Mac Address** as shown in DMGT 2 
--	Click on the **Action** button as shown in DMGT 3
--	Click on **Blacklist**. 
--	Clicking on the Blacklist displays a modal that allows the user to enter the **Blacklist Approver** and the **Blacklist Reason** from the dropdown as shown in DMGT 4
+-	Click on Blacklist from Device Management on SIMROP menu to access the Blacklist landing page.
+-	Search for the desired devices by entering the device Kit Tag or Mac Address
+-	Click on the Action button
+-	Click on Blacklist. 
+
+![Blacklist Page](../assets/images/DMGT-1-Blacklist-Page.png)
+
+-	Clicking on the Blacklist displays a modal that allows the user to enter the Blacklist Approver and the Blacklist Reason from the dropdown
 -	Enter any other feedback as required
--	Click on the **Save** button. 
--	Clicking on the Save button displays a success message as shown in DMGT 5
+-	Click on the Save button. 
 
-<!-- theme: success -->
-> ##### DMGT 2
-> Search Operation 
-
-<!-- theme: success -->
-> ##### DMGT 3
-> Device Count & Blacklist Action
-
-<!-- theme: success -->
-> ##### DMGT 4
-> Blacklist Approver & Reason
-
-<!-- theme: success -->
-> ##### DMGT 5
-> Message of Successful Blacklist
+![Blacklist Device](../assets/images/DMGT-2-Blacklist-Device.png)
 
 #### Whitelist a Device 
 To whitelist a device, the admin should do the following
-•	Click on **Whitelist** from **Device Management** on SIMROP menu to access the Whitelist landing page as shown in DMGT 6
-•	Search for the desired devices by entering the device **Kit Tag** or M**ac Address** as shown in DMGT 2 
-•	Click on the **Action** button as shown in DMGT 6
-•	Click on **Whitelist**. 
-•	Clicking on the Whitelist displays a modal that allows the user enter the **Whitelist Approver** and the **Whitelist Reason** from the Whitelist Reason dropdown as shown in DMGT 7
-•	Enter the optional feedback on the feedback field
-•	Click on the **Save** button. 
-•	Clicking on the Save button displays a success message as shown in DMGT 6
+-	Click on Whitelist from Device Management on SIMROP menu to access the Whitelist landing page.
+-	Search for the desired devices by entering the device Kit Tag or Mac Address
+-	Click on the Action button
+-	Click on Whitelist 
 
-<!-- theme: success -->
-> ##### DMGT 6
-> Whitelist Action
+![Whitelist Page](../assets/images/DMGT-3-Whitelist-Page.png)
 
-<!-- theme: success -->
-> ##### DMGT 7
-> Whitelist Approver & Reason
+-	Clicking on the Whitelist displays a modal that allows the user to enter the Whitelist Approver and the Whitelist Reason from the Whitelist Reason dropdown
+-	Enter the optional feedback on the feedback field
+-	Click on the Save button. 
+
+![Whitelist Device](../assets/images/DMGT-4-Whitelist-Device.png)
 
 #### View Kit Details 
 
@@ -966,34 +901,27 @@ From the Blacklist View, a user can view kit details. The kit details have all t
 -	Client Activity Summary
 -	Registration Summary
 
-The listed can be seen in DMGT 8
-
-<!-- theme: success -->
-> ##### DMGT 8
-> View Kit Details view
-
 To view the View Kit Details view, a user should do the following;
 
-Navigate to the landing page as shown in DMGT 2
--	Click on the Action button as shown in DMGT 3 or 6
+- Navigate to the Blacklist/Whitelist landing page
+-	Click on the Action button
 -	Click on View Details
 
-The action above navigates the user to the View Kit Details view as shown in DMGT 8
+The action above navigates the user to the View Kit Details view as shown below
+
+![View Kit Details](../assets/images/DMGT-5-View-Kit-Details.png)
 
 #### Bulk Blacklist/Whitelist
 A user can choose to blacklist/whitelist multiple kits all at once. This feature ensures that a user is able to whitelist/blacklist several kits in a single operation. To carry out a bulk device whitelist/backlist, a user should;
-- Access the Blacklist view and click on Bulk Upload as shown in DMGT 9
--	Click on the Download Template link (as shown in DMGT 10) to download an complete the excel template
+- Access the Blacklist view and click on Bulk Upload
+
+![Bulk Blacklist/Whitelist](../assets/images/DMGT-6-Bulk-Blacklist.png)
+
+-	Click on the Download Template link to download an complete the excel template
 -	Upload the completed excel template
--	Click on the Upload button as shown in DMGT 10
+-	Click on the Upload button
 
-<!-- theme: success -->
-> ##### DMGT 9
-> Bulk Whitelist/Blacklist
-
-<!-- theme: success -->
-> ##### DMGT 10
-> Template download & Upload
+![Template Upload/Download](../assets/images/DMGT-7-Template-Upload-Download.png)
 
 ### Tagging Request View
 
@@ -1014,55 +942,47 @@ A user can search for a tagging request using the following parameters;
 -	Start Date
 -	End Date
 
-***Note:** Some of the search parameters are hidden and can become visible by clicking the **More…** button as shown in DMGT 11*
-
-<!-- theme: success -->
-> ##### DMGT 11
-> Tagging Request View
+***Note:** Some of the search parameters are hidden and can become visible by clicking the **More…** button
 
 To search for a device tagging request, the user should do the following;
 -	Navigate to the Tagging Request View from Device Management on the menu
 -	Enter the Device ID/Kit tag of the desired device. Click on More… button to show more search options
--	Click on the Search button as shown in DMGT 11
+-	Click on the Search button 
 
 The action above displays the result based on the search criteria if there is a result of the search operation
 
+![Tagging Request View](../assets/images/DMGT-8-Tagging-Request-View.png)
+
 #### Assign Device
 Assigning of devices which are also known as device tagged can be done from the Tagging Request view. To assign a device;
--	Search for the desired device (refer to 4.5.2.1)
--	Click on the Action
--	Click on Assign as shown in DMGT 12 to display a form containing kit tagging information
--	Select the desired parameters as shown in DMGT 13
+-	Search for the desired device
+-	Click on the Action button
+-	Click on Assign to display a form containing kit tagging information
+
+![Assign Device Action Menu](../assets/images/DMGT-9-Assign-View-Details-Menu.png)
+
+-	Select the desired parameters
 -	Click on Assign
 
 The actions above create a tag for the selected device. However, the tagging request needs to be approved. See Tagging Approval for more details
 
-<!-- theme: success -->
-> ##### DMGT 12
-> Assign/View Details Menu Item
-
-<!-- theme: success -->
-> ##### DMGT 13
-> Device Assignment
+![Device Assignment](../assets/images/DMGT-10-Device-Assignment.png)
 
 #### Re-Assign Device
 A user can choose to Re-Assign an already assigned and approved device on SIMROP. Re-assigning occurs when the user wants to assign an already assigned kit to another dealer or another state. Re-assigning can be done from the Tagging Request view. To re-assign a device;
 
--	Search for the desired device (refer to 4.5.2.1)
+-	Search for the desired device
 -	Click on the Action
--	Click on Re-Assign as shown in DMGT 14 to display a form containing kit tagging information. Note: Re-Assign menu item is only available to already assigned/tagged devices that their status is Approved on SIMROP.
--	Select the desired parameters as shown in DMGT 15
+-	Click on Re-Assign to display a form containing kit tagging information. Note: Re-Assign menu item is only available to already assigned/tagged devices that their status is Approved on SIMROP.
+
+![Re-Assign Device Action Menu](../assets/images/DMGT-11-ReAssign-Action-Menu.png)
+
+-	Select the desired parameters
 -	Click on Re-Assign
 
 The actions above create a tag for the selected device. However, the tagging request needs to be approved. See Tagging Approval for more details
 
-<!-- theme: success -->
-> ##### DMGT 14
-> Re-Assign/View Tag History/View Details
-
-<!-- theme: success -->
-> ##### DMGT 15
-> Device Re-Assignment
+![Device Reassignment](../assets/images/DMGT-12-Device-Reassignment.png)
 
 #### View Tag History
 To View Tag History, a user should
@@ -1070,24 +990,19 @@ To View Tag History, a user should
 -	Click on the Action menu 
 -	Click on View Tag History 
 
-The action above displays all the tag history of the device as shown in DMGT 16 below
+The action above displays all the tag history of the device as shown below
 
-<!-- theme: success -->
-> ##### DMGT 16
-> View Tag History
+![View Tag History](../assets/images/DMGT-13-Tagging-History.png)
 
 #### View Details
-
 To view Tagging Request details, a user should
 -	Navigate to the Tagging Request landing page
 -	Click on the Action menu 
 -	Click on View Details 
 
-The action above displays the details of the device as shown in DMGT 17 below
+The action above displays the details of the device as shown below
 
-<!-- theme: success -->
-> ##### DMGT 17
-> View tagging Request Details
+![Tagging Reuest Details](../assets/images/DMGT-14-Tagging-Request-Details.png)
 
 ### Tagging Approval View
 The Tagging Approval view gives a user visibility of all tagging approval requests from devices. The approval of tagged devices is controlled by an approval chain called workflow. Refer to the Workflow Management section 
@@ -1105,36 +1020,31 @@ A user can search for a tagging approval request using the following parameters;
 -	Start Date
 -	End Date
 
-**Note:** Some of the search parameters are hidden and can become visible by clicking the More… button as shown in DMGT 18
-
-<!-- theme: success -->
-> ##### DMGT 18
-> Tagging approval view
+**Note:** Some of the search parameters are hidden and can become visible by clicking the More… button
 
 To search for a device tagging approval, the user should do the following;
 -	Navigate to the Tagging Approval view from Device Management on the menu
 -	Enter the Device ID/Kit tag of the desired device. Click on More… button to show more search options
--	Click on the Search button as shown in DMGT 18
+-	Click on the Search button
 
 The action above displays the result based on the search criteria if there is a result of the search operation
+
+![Tagging Approval View](../assets/images/DMGT-15-Tagging-Approval-View.png)
 
 #### View Details
 A user can view details of a tagging approval request and can also approve from the same view. Approval is configurable. This means that there could be more than 1 approver at a time based on configuration.
 
 To Tagging Request details, a user should
 -	Navigate to the Tagging Request Approval landing page
--	Click on the Action menu as shown in DMGT 19
+-	Click on the Action menu
+
+![Tagging Approval Action Menu](../assets/images/DMGT-16-Tagging-Approval-Action-Menu.png)
+
 -	Click on View Details 
 
-The action above displays the details of the device as shown in DMGT 20 below
+The action above displays the details of the device as shown below
 
-<!-- theme: success -->
-> ##### DMGT 19
-> View Details Action
-
-<!-- theme: success -->
-> ##### DMGT 20
-> Tagging Details
+![Tagging Details](../assets/images/DMGT-17-Tagging-Details.png)
 
 #### View Tag History
 To View Tag History, a user should
@@ -1142,11 +1052,9 @@ To View Tag History, a user should
 -	Click on the Action menu 
 -	Click on View Tag History 
 
-The action above displays all the tag history of the device as shown in DMGT 21 below
+The action above displays all the tag history of the device as shown below
 
-<!-- theme: success -->
-> ##### DMGT 21
-> View Tag History
+![View Tagging History](../assets/images/DMGT-18-View-Tagging-History.png)
 
 ## User Management Module
 The User Management Module allows a user to manage other users and dealers on SIMROP. A user with access to the User Management Module 
