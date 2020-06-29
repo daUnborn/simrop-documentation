@@ -1,4 +1,4 @@
-# 1.0 Introduction
+# Introduction
 
 SIMROP also known as SIM Registration Operation Portal is a portal designed to manage kit assignment and other related activities. This portal can be used to manage kit assignment (map a kit to an agent), raise and resolve issues (issue log), log return B2B and approve/reject return B2B. Likewise, this portal provides stakeholders’ dashboards and reports for easy tracking and monitoring. 
 
@@ -11,12 +11,14 @@ The SIMROP portal has three categories of users, they are the:
 - **Dealers:** These are dealers/partners with MTN Nigeria. On the SIMROP application, dealers are able to map devices to agents, log user and kit related issues, view SIMROP Dashboard, return devices to B2B and request for agent account creation.
 - **Admins:** These are SIMROP admin. They receive notifications as a result of a request from dealers and get to act on the request. These group of users can view details of kit-agent mapping, act on B2B requests, resolve related issues and view Dashboard.
 
-## 2.0 SIMROP PORTAL
+## SIMROP PORTAL
 
-### 2.1 Access to SIMROP
+### Access to SIMROP
 The new SIMROP can be accessed from http://sraa.mtnnigeria.net/ from a public network or from the MTN Domain. SIMROP can be accessed from any browser. The browser must have JavaScript enabled to enable SIMROP to run seamlessly. Below is a view of the landing page when a user visits the URL above
 
-### 2.2 Login
+![SIMROP Landing Page](../assets/images/INTR-1-URL-Landing-Page.png)
+
+### Login
 
 Before a user is able to login to SIMROP, an account must be created for the user. Actions and operations on SIMROP are highly role based. This means that a user is able to carry out actions on SIMROP based on the role assigned to the user. 
 Account creation and role assignment to account are handled by CAC Helpdesk or Seamfix support. CAC Helpdesk can be reached on cacHelpDesk@mtn.com while Seamfix Support can be reached via email also on #seamfixsupport.NG@mtn.com
@@ -26,37 +28,33 @@ For a successful login, the user is expected to;
 - Enter a valid password
 - Click on the Submit button as shown in the figure above
 
-### 2.3	Views
+### Views
 There are currently 3 views on SIMROP access to these views is dependent on the role assigned to the user. Below is a breakdown of the views;
 - **Dealer View** – From this view, dealers are able to carry out all dealer related activities like; Agent Enrollment, Issue Log, retrieve devices, return devices to B2B and view dashboard. Note that dealers are able to view kits and carry out operations on kits assigned to them.
 - **Admin View** – From this view, an Admin is able to carry out admin operations based on a request from dealers. Operations from this view include; retrieval of Agent Enrollment details, approval of Return to B2B requests, issue resolution, agent account creation, view dashboard
 
 
-### 2.4	Password
+###	Password
 SIMROP users have the ability to change their password at will. Password change or reset could be as a result of forgetting his/her password or a user wanting to change his/her password to something else.
 
 To change a password, the user should do the following;
   - Access the login view
   - Click on the **Forgot Password** link as shown in the figure below
 
- 
-> ### Figure 2
-> Image with forgot Password Link goes here
+![Forgot Password](../assets/images/INTR-2-Forgot-Password-Link.png)
 
-  - Enter the username/email to the account on the preceding screen as shown in Figure 3 and click on Continue
-  -	If the provided username/email is not valid, an error message is returned as shown in Figure 4
+  - Enter the username/email to the account on the preceding screen and click on Continue
 
- 
-> ### Figure 3
-> Provide Username for Password change/reset
- 
-> ### Figure 4
-> Invalid Username Error
+![Password Change](../assets/images/INTR-3-Password-Change.png)
 
-  - Enter the OTP sent to the phone number associated with the account provided as shown in Figure 5. Note that the last 4 digits of the number that would receive the MSISDN would be displayed on the screen as highlighted in Figure 5. Also, note that the OTP sent to the user’s phone number expires after a configured amount of time
+  -	If the provided username/email is not valid, an error message is returned as shown
+
+![Invalid Username Error](../assets/images/INTR-4-Invalid-Username-Error.jpg)
+
+  - Enter the OTP sent to the phone number associated with the account provided as shown below. 
+**Note**: The last 4 digits of the number that would receive the MSISDN would be displayed on the screen as highlighted in the figure below. Also, note that the OTP sent to the user’s phone number expires after a configured amount of time
  
-> ### Figure 5
-> OTP validation for password change/reset
+![OTP validation](../assets/images/INTR-5-OTP-validation.png)
 
   - On successful validation of the OTP, the user would be prompted to provide a new password, confirm the provided password and click on Continue as shown in Figure 6. Note: The new password must conform to the configured password policy
 
@@ -1062,33 +1060,23 @@ The User Management Module allows a user to manage other users and dealers on SI
 ### Access to the User Management Module
 To access the user management module, do the following;
 -	Login with a valid username and password
--	Click on User Management and click Account Creation as shown in the UMGT below
-
-<!-- theme: success -->
-> ##### UMGT 1
-> User Management Access
-
+-	Click on User Management and click Account Creation
 -	The action above navigates the user to the view shown below
 
-<!-- theme: success -->
-> ##### UMGT 2
-> User Manager Landing Page
+![User Management Module](../assets/images/UMGT-1-User-Management-Landing-Page.png)
 
 ### Account Creation 
 To create an account on the User Management Module,
 -	Access the User Management Module
--	Click on Add User as shown in UMGT 3 below
--	Click on User Creation. This action navigates the user to the account creation view as shown in UMGT 4
--	Enter the desired details in the form as shown in UMGT 4
+-	Click on Add User
+
+![Add User](../assets/images/UMGT-2-Add-User.png)
+
+-	Click on User Creation. This action navigates the user to the account creation view as shown in the figure below
+-	Enter the desired details in the form
 -	Click on Save
 
-<!-- theme: success -->
-> ##### UMGT 3
-> Add User
-
-<!-- theme: success -->
-> ##### UMGT 4
-> User Creation Form
+![User Creation Form](../assets/images/UMGT-3-User-Creation-Form.png)
 
 **Note:** 
 -	*When creating an account, use a unique email address. If an email already exists, a second account can’t be created using the same email address*
@@ -1100,77 +1088,61 @@ To create an account on the User Management Module,
 
 ### Search, View and Edit
 To search and view details of an existing user;
--	Enter the user’s name, email or phone number or status or Role as shown in the UMGT above
--	Click on Search as shown in the UMGT above
+-	Enter the user’s name, email or phone number or status or Role
+-	Click on Search
 -	The action above bring up related results as shown below
 
-<!-- theme: success -->
-> ##### UMGT 5
-> User Account Search Result
+![User Account Search Result](../assets/images/UMGT-4-User-Account-Search-Result.png)
 
--	Click on the Actions menu and select the View Details  menu item as shown below to view the details of the selected record
+-	Click on the Actions menu and select the View Details menu item as shown below to view the details of the selected record
 
-<!-- theme: success -->
-> ##### UMGT 6
-> User Account Edit Menu Item
+![User Account Edit Menu](../assets/images/UMGT-5-User-Account-Edit-Action-Menu.png)
 
 -	Click on the Pencil icon to edit user detail
 
-<!-- theme: success -->
-> ##### UMGT 7
-> User Account Update View
+![User Account Update](../assets/images/UMGT-6-User-Account-Update-View.png)
 
--	Update the desired field as shown in the UMGT 7 above and click on Update
+-	Update the desired field and click on Update
 
 ### Account Activation/Deactivation
 When an account is deactivated, the user is unable to use any component of BioSmart or SIMROP that requires account login. To deactivate an account,
 -	Access the User Management Module
 -	Search for the account to be deactivated using user’s email, phone number or name
--	Click on the Actions menu and select Deactivate as shown in the UMGT 8 below
+-	Click on the Actions menu and select Deactivate
 
-<!-- theme: success -->
-> ##### UMGT 8
-> User Account Deactivation Menu Item
+![Account Deactivation Menu](../assets/images/UMGT-7-User-Account-Deactivation-Menu-Item.png)
 
 -	Enter the approver of the Deactivation request on the Approval Email field
--	Enter Reason for deactivating account from the Approval Reason dropdown as shown in the UMGT 9 below
+-	Enter Reason for deactivating account from the Approval Reason dropdown
 -	Enter any other feedback as required
 
-<!-- theme: success -->
-> ##### UMGT 9
-> Deactivation Reason View
+![Deactivation Reasons](../assets/images/UMGT-8-Deactivation-Reason-View.png)
 
 -	Click on Deactivate to complete the deactivation process
 
 To activate a deactivated account;
 -	Access the User Management Module
 -	Search for the account to be deactivated using user’s email, phone number or name
--	Click on the Actions menu and select Activate as shown in the UMGT 10 below
+-	Click on the Actions menu and select Activate
 
-<!-- theme: success -->
-> ##### UMGT 10
-> User Account Activation View
-	
+![Account Activation Menu](../assets/images/UMGT-9-User-Account-Activation-Menu-Item.png)
+
 - Enter the approver of the activation request on the Approval Email field
--	Enter Reason for activating the account from the Approval Reason dropdown as shown in the UMGT 11 below
+-	Enter Reason for activating the account from the Approval Reason dropdown
 -	Enter any other feedback as required
 
-<!-- theme: success -->
-> ##### UMGT 11
-> Activation Reasons View
+![Activation Reasons](../assets/images/UMGT-10-Activation-Reasons-View.png)
 
-- Click on Activate to complete the deactivation process
+- Click on Activate to complete the activation process
 
 ### Password Reset
 To reset an account;
 -	Enter the user’s name, email or phone number and also select a status or Role from the user management landing page
 -	Click on Search 
 -	Click on the Actions menu on the selected record from the landing page
--	Click on Reset Password as shown in the UMGT 12 below
+-	Click on Reset Password 
 
-<!-- theme: success -->
-> ##### UMGT 12
-> Reset Password
+![Reset Password](../assets/images/UMGT-11-Reset-Password.png)
 
 The user gets a new password as an SMS to user’s phone number
 
@@ -1180,27 +1152,21 @@ The user gets a new password as an SMS to user’s phone number
 -	Click on Search 
 -	Click on the Actions menu and select the Unlock Account menu item as shown below to view the details of the selected record 
 
-<!-- theme: success -->
-> ##### UMGT 13
-> Unblock User
+![Unblock User](../assets/images/UMGT-12-Unblock-User.png)
 
 ### Bulk User Creation
 An admin can create user accounts in bulk. To carry out a bulk account creation, the admin should
 -	Access the User Management landing page
 -	Click on the Add User > Bulk User Creation as shown below
 
-<!-- theme: success -->
-> ##### UMGT 14
-> Bulk User Creation
+![Bulk User Creation](../assets/images/UMGT-13-Bulk-User-Creation.png)
 
--	Click on Download Template as shown in the UMGT 15 below
+-	Click on Download Template
 -	Complete the downloaded template as required
 -	Locate the file on the download path
--	Click on Upload as shown in the UMGT 15 below
+-	Click on Upload
 
-<!-- theme: success -->
-> ##### UMGT 15
-> Bulk User Creation Upload
+![Bulk User Creation Upload](../assets/images/UMGT-14-Bulk-User-Creation-Template.png)
 
 **Note:** On successful upload, a status report showing the state of each of the record is downloaded
 
@@ -1209,38 +1175,46 @@ An admin can activate or deactivate user accounts in bulk. To carry out a bulk a
 -	Access the User Management landing page
 -	Click on the Add User > Bulk Activation/Deactivation as shown below
 
-<!-- theme: success -->
-> ##### UMGT 16
-> Bulk Activation / Deactivation
+![Bulk Activation/Deactivation](../assets/images/UMGT-15-Bulk-Activation-Deactivation.png)
 
--	Click on Download Activation Template  or Download Deactivation Template as shown in the UMGT 17 below (the choice of the template depends on the type of operation to be performed)
+-	Click on Download Activation Template or Download Deactivation Template (the choice of the template depends on the type of operation to be performed)
 -	Complete the downloaded template as required
 -	Locate the file on the download path (or where the document is saved)
--	Click on Upload as shown in the UMGT 17 below
+-	Click on Upload 
 
-<!-- theme: success -->
-> ##### UMGT 17
-> Bulk Activation/Deactivation Upload
+![Bulk Activation/Deactivation Upload](../assets/images/UMGT-16-Bulk-Activation-Deactivation-Template.png)
 
 **Note:** On successful upload, a status report showing the state of each of the record is downloaded
 
 ### Bulk Password Reset
-An admin can activate or deactivate user accounts in bulk. To carry out a bulk account activation/deactivation, the admin should
+An admin can carry out password reset in bulk. To carry out a bulk password reset, the admin should
 -	Access the User Management landing page
 -	Click on the Add User > Bulk Password Reset as shown below
 
-<!-- theme: success -->
-> ##### UMGT 18
-> Bulk Password Reset
+![Bulk Password Reset](../assets/images/UMGT-17-Bulk-Password-Reset.png)
 
--	Click on Download Template as shown in the UMGT 19 below
+-	Click on Download Template
 -	Complete the downloaded template as required
 -	Locate the file on the download path
--	Click on Upload as shown in the UMGT 19 below
+-	Click on Upload
 
-<!-- theme: success -->
-> ##### UMGT 19
-> Bulk Password Reset Upload
+![Bulk Password Reset Upload](../assets/images/UMGT-18-Bulk-Password-Reset-Template.png)
+
+**Note:** On successful upload, a status report showing the state of each of the record is downloaded
+
+### Bulk User Update
+An admin can carry out bulk user update. To carry out a bulk user update, the admin should
+-	Access the User Management landing page
+-	Click on the Add User > Bulk User Update as shown below
+
+![Bulk User Update](../assets/images/UMGT-19-Bulk-User-Update.png)
+
+-	Click on Download Template
+-	Complete the downloaded template as required
+-	Locate the file on the download path
+-	Click on Upload
+
+![Bulk User Update Upload](../assets/images/UMGT-20-Bulk-User-Update-Template.png)
 
 **Note:** On successful upload, a status report showing the state of each of the record is downloaded
 
@@ -1248,88 +1222,66 @@ An admin can activate or deactivate user accounts in bulk. To carry out a bulk a
 An admin can also create dealers on SIMROP via the User Management Module. To create a dealer, an admin should do the following;
 
 -	Access the User Management Module
--	Click on the Dealer button as shown in the UMGT 20 below
--	Click on the Add Dealer button as shown in the UMGT 20 below
+-	Click on the Dealer button 
+-	Click on the Add Dealer button 
 
-<!-- theme: success -->
-> ##### UMGT 20
-> Dealer Landing Page
+![Dealer Landing Page](../assets/images/UMGT-21-Dealer-Landing-Page.png)
 
-- Enter the required details in the preceding form as shown in the UMGT 21 below
-- Click on Save to create dealer account as shown in the UMGT 21 below
+- Enter the required details in the preceding form as shown below
+- Click on Save to create dealer account 
 
-<!-- theme: success -->
-> ##### UMGT 21
-> Account Creation Form
+![Dealer Account Creation Form](../assets/images/UMGT-22-Dealer-Account-Creation-Form.png)
 
 ### Search, View and Edit
 To search and view details of an existing dealer account;
--	Enter the dealer’s name, email or phone number or status as shown in the UMGT 22 below
--	Click on Search as shown in the UMGT 22 below
--	The action above bring up related results as shown below
+-	Enter the dealer’s name, email or phone number or status
+-	Click on Search
+-	The action above bring up related results
+-	Click on the Actions menu and select the View Details menu item as shown below to view the details of the selected record
 
-<!-- theme: success -->
-> ##### UMGT 22
-> Dealer Account Search Result
+![Dealer Account Search & View](../assets/images/UMGT-23-Dealer-Account-Search-Action-Menu.png)
 
--	Click on the Actions menu and select the View Details  menu item as shown below to view the details of the selected record
+-	Update the desired field and click on Update
 
-<!-- theme: success -->
-> ##### UMGT 23
-> Dealer Account View Details
-
--	Update the desired field as shown in the UMGT  24 below and click on Update
-
-<!-- theme: success -->
-> ##### UMGT 24
-> Dealer Account Update
+![Dealer Account Update](../assets/images/UMGT-24-Dealer-Account-Update.png)
 
 ### Dealer Account Activation/Deactivation
 To deactivate a dealer account,
 -	Access the User Management Module
 -	Search for the account to be deactivated using dealer’s email, phone number or name
--	Click on the Actions menu and select Deactivate as shown in the UMGT below; 
+-	Click on the Actions menu and select Deactivate
 
-<!-- theme: success -->
-> ##### UMGT 25
-> Dealer Account Deactivation Menu Item
+![Dealer Account Deactivation Menu Item](../assets/images/UMGT-25-Dealer-Account-Deactivation-Menu-Item.png)
 
--	Enter the approver of the Deactivation request and the Reason for deactivating account as shown in the UMGT 26 below
+-	Enter the approver of the Deactivation request and the Reason for deactivating account
 
-<!-- theme: success -->
-> ##### UMGT 26
-> Dealer Account Deactivation Reason View
+![Dealer Account Deactivation Reason](../assets/images/UMGT-26-Dealer-Account-Deactivation-Reason-View.png)
 
 -	Click on Deactivate to complete the deactivation process
-**Note:** The Deactivation Count (number of times the dealer has been deactivated can be viewed while deactivating an active dealer
+
+**Note:** The Deactivation Count (number of times the dealer has been deactivated) can be viewed while deactivating an active dealer
 
 To activate a deactivated account;
 -	Access the User Management Module
 -	Search for the account to be deactivated using dealer’s email, phone number or name
--	Click on the Actions menu and select Activate as shown in the UMGT 27 below
+-	Click on the Actions menu and select Activate
 
-<!-- theme: success -->
-> ##### UMGT 27
-> Dealer Account Activation View
+![Dealer Account Activation View](../assets/images/UMGT-27-Dealer-Account-Activation-Menu-Item.png)
 
--	Enter the approver of the activation request and the Reason for deactivating account as shown in the UMGT below
+-	Enter the approver of the activation request and the Reason for deactivating account as shown below
 
-<!-- theme: success -->
-> ##### UMGT 28
-> Dealer Account Activation Reasons View
+![Dealer Account Activation Reasons](../assets/images/UMGT-28-Dealer-Account-Activation-Reasons-View.png)
 
--	Click on Activate to complete the deactivation process
+-	Click on Activate to complete the activation process
 
 ### Dealer Account Password Reset
 To reset the password to a dealer’s account;
 -	Enter the dealer’s name, email or phone number and also select a status from the user management landing page
 -	Click on Search 
 -	Click on the Actions menu on the selected record from the landing page
--	Click on Reset Password as shown in the UMGT 29 below
+-	Click on Reset Password 
 
-<!-- theme: success -->
-> ##### UMGT 29
-> Dealer Reset Password
+![Dealer Reset Password](../assets/images/UMGT-29-Dealer-Reset-Password.png)
 
 The user gets a new password as an SMS to the user’s phone number with a notification on SIMROP.
 
@@ -1339,33 +1291,23 @@ An admin is able to view either the user or dealer account activation history on
 -	Access the User Management Module
 -	Access the User or Dealer sub-view as required
 -	Search for the dealer or user from the selected view
--	Click on the Actions menu and select Activate as shown in the UMGT 30 below 
--	The action  below displays the activation/deactivation history of the user or dealer as shown in UMGT 31 below
+-	Click on the Actions menu and select Activate
 
-<!-- theme: success -->
-> ##### UMGT 30
-> Activation History (From Action Menu)
+![Activation History (From Action Menu)](../assets/images/UMGT-30-Activation-History-Action-Menu.png)
 
-<!-- theme: success -->
-> ##### UMGT 31
-> Activation History
+-	The action  below displays the activation/deactivation history of the user or dealer below
+
+![Activation History](../assets/images/UMGT-31-Activation-History.png)
 
 ## License Request Management
 License request from kits can be managed from the license request management module. 
 
 ### Access License Request
 -	Login with a valid username and password
--	Click on License Management from the menu and select FM License Management as shown in the Figure below
+-	Click on License Management from the menu 
+-	The action above navigates the user to the License Management view as shown below 
 
-<!-- theme: success -->
-> ##### FMLA 1
-> Access License Request Manager
-
--	The action above navigates the user to the FM License Management view as shown in the Figure below 
-
-<!-- theme: success -->
-> ##### FMLA 2
-> License Request Landing Page
+![License Request Management](../assets/images/FMLA-1-License-Request-Landing-Page.png)
 
 ### Approve/Reject a License Request
 -	Access the License Management view
@@ -1406,75 +1348,49 @@ This module is used to manage roles assigned to users on SIMROP. Roles on SIMROP
 
 ###	Access to Role Manager
 -	Login with a valid username and password
--	Go to the SIMROP menu and select Role Manager as shown in the figure below
+-	Go to the SIMROP menu and select Role Manager
+-	The action above navigates the user to Role Management view as shown below 
 
-<!-- theme: success -->
-> ##### RM 1
-> Access Role Manager
-
--	The action above navigates the user to Role Management view as shown in the figure below 
-
-<!-- theme: success -->
-> ##### RM 2
-> Role Manager Landing Page
+![Role Manager Landing Page](../assets/images/RM-1-Role-Manager-Landing-Page.png)
 
 ### Add Role
 Follow the steps below to add a new role
--	Access the landing page of the Role Management view as shown in the view above
--	Click on the Add Role button as shown in the figure below 
+-	Access the landing page of the Role Management module
+-	Click on the Add Role button 
 
-<!-- theme: success -->
-> ##### RM 3
-> Add New Role
+![Add New Role](../assets/images/RM-2-Add-New-Role.png)
 
--	Complete the form with the required details and click on Save as shown on the figure below 
+-	Complete the form with the required details and click on Save
 
-<!-- theme: success -->
-> ##### RM 4
-> Role Creation Form
+![Role Creation Form](../assets/images/RM-3-Role-Creation-Form.png)
 
 ### View & Edit Role
 -	Access the Role Management view
--	Enter the role name in the search field and click on the Search button as shown in the figure below 
+-	Enter the role name in the search field and click on the Search button
 
-<!-- theme: success -->
-> ##### RM 5
-> Search Existing Role
+![Search Existing Role](../assets/images/RM-4-Search-Existing-Role.png)
 
--	Click on Actions and select View Details as shown in the view below 
+-	Click on Actions and select View Details 
 
-<!-- theme: success -->
-> ##### RM 6
-> Edit Existing Role
+![Edit Existing Role](../assets/images/RM-5-Edit-Existing-Role.png)
 
 -	Click on Edit as shown in the figure below 
 
-<!-- theme: success -->
-> ##### RM 7
-> Role Manager View Details
+![Role Manager View Details](../assets/images/RM-5-Edit-Existing-Role.png)
 
 -	Enter the required details and click on the Update button as shown in the figure below 
 
-<!-- theme: success -->
-> ##### RM 8
-> Role Manager Update Details
+![Role Manager Update Details](../assets/images/RM-7-Role-Manager-Update-Details.png)
 
 ## Subscribers Module
 The Subscriber allows a user with access to it to view details of any duly registered customer. 
 
 ### Access to Subscriber Module
 -	Login successfully to SIMROP using the correct username and password
--	Go to the SIMROP Menu > Subscribers > Subscribers Info as shown in the figure below
-
-<!-- theme: success -->
-> ##### BIO 45
-> Subscriber Info Menu
-
+-	Go to the SIMROP Menu > Subscribers > Subscribers Info
 -	The action above navigates the user to the Biodata Manager view as shown below 
 
-<!-- theme: success -->
-> ##### BIO 46
-> Bio Data Search
+![Subscriber Info Landing Page](../assets/images/BIO-1-Subscriber-Info-Landing-Page.png)
 
 ### Search Subscriber Details
 -	The user can search for a subscriber’s details as shown in the figure above by using either of the following;
@@ -1483,9 +1399,7 @@ The Subscriber allows a user with access to it to view details of any duly regis
     -	Subscriber’s registration unique ID or Serial number
 -	Click on the Search button as shown in the figure above to spool a list of all registrations associated with the search criteria used as shown in the figure below
 
-<!-- theme: success -->
-> ##### BIO 47
-> Bio Data Search Result View
+![Bio Data Search Result View](../assets/images/BIO-2-Bio-Data-Search-Result-View.png)
 
 -	Click on Action > View Details of choice record to view the details associated with the registration as shown in the figure below
 
@@ -1576,11 +1490,10 @@ The transaction history enables an admin user to have a visibility of all vendin
 
 ## Notifications
 The notification feature is used to send messages or notifications to users in the field. Notifications can be either device targeted, user-targeted or global. A message targeted to a device can be viewed by any user that logs in to that device while a user targeted message can be viewed by only the user irrespective of the device they logged in to.
+
 Below is a view of the Notifications landing page. 
 
-<!-- theme: success -->
-> ##### NOT 1
-> Notifications Landing Page
+![Notifications Landing Page](../assets/images/NOT-1-Notifications-Landing-Page.png)
 
 The following actions can be carried out from the notification landing page;
 -	Search for existing notifications
@@ -1591,11 +1504,9 @@ The following actions can be carried out from the notification landing page;
 To search for existing notifications, the admin should do the following;
 -	Click on Notifications from the Actions menu
 -	Enter the desired search parameter
--	Click on the Search button as shown in NOT 2
+-	Click on the Search button
 
-<!-- theme: success -->
-> ##### NOT 2
-> Notifications page with Search Field
+![Search for Existing Notifications](../assets/images/NOT-2-Notifications-page-Search.png)
 
 ### Send New Notification
 There are 2 methods of sending new notifications on SIMROP 
@@ -1604,74 +1515,54 @@ There are 2 methods of sending new notifications on SIMROP
 
 #### Single Notification
 To send a single notification to a specified user or device, an admin is expected to do the following;
-1.	Navigate to the landing page as shown in NOT 1
-2.	Click on the Notification button and select Single Notification button as shown in NOT 3
-3.	The action above displays the New Notifications dialog as shown in NOT 4
-4.	Select the target group from the Select Target Group dropdown as shown in NOT 5
-5.	Select the Dealer, the Kit/User (depending on the target group), enter the message and click on the Save button as shown in NOT 6
-6.	Proceed with Notification Creation and notification is displayed indicating that the notification sending was either successful or failed as shown in NOT 7
+1.	Navigate to the landing page
+2.	Click on the Notification button and select Single Notification button
+
+![Single Notification Button](../assets/images/NOT-3-Single-New-Notification.png)
+
+3.	The action above displays the New Notifications dialog
+4.	Select the target group (User, Dealers, Global) from the Select Target Group dropdown
+5.	Select the Dealer, the Kit/User (depending on the target group), enter the message and click on the Save button 
+6.	Proceed with Notification Creation and notification is displayed indicating that the notification sending was either successful or failed.
 
 
-<!-- theme: success -->
-> ##### NOT 3
-> New Notification (Single)
+![Single Notification](../assets/images/NOT-4-Single-Notification-Dialog.png)
 
-<!-- theme: success -->
-> ##### NOT 4
-> Single Notification Dialog
+To send a Global Message, select Global from the Select Target Group dropdown and enter the message.
+Click on the Save button. This action sends a message to all the kits on the BioSmart ecosystem.
 
-<!-- theme: success -->
-> ##### NOT 5
-> Single Notification Target Group
-
-<!-- theme: success -->
-> ##### NOT 6
-> Save and Send Notification
-
-<!-- theme: success -->
-> ##### NOT 7
-> Success Message
-
-To send a Global Message, select Global from the Select Target Group dropdown and enter the message as shown in NOT 8. Click on the Save button. This action sends a message to all the kits on the BioSmart ecosystem.
-
-
-<!-- theme: success -->
-> ##### NOT 8
-> Global Notification 
+![Global Notification](../assets/images/NOT-5-Global-Notification.png)
 
 #### Bulk Notification
 Bulk notification can be used to send to several users or kits at a time. This can be done by downloading a template and uploading the complete template. On successful upload, a status report is downloaded automatically. The status report shows the notification items that were successful or not successful
 
 To send a bulk notification, the admin should do the following;
 
-1.	Navigate to the landing page as shown in NOT 1
-2.	Click on the Notification button and select Bulk Notification button as shown in NOT 9
-3.	The action above displays the Notifications Notifications dialog as shown in NOT 10
-4.	Download the required template depending on the target group (devices or users) by clicking on the links as shown in NOT 11
+1.	Navigate to the landing page 
+2.	Click on the Notification button and select Bulk Notification button
+
+![Bulk Notification button](../assets/images/NOT-6-Bulk-New-Notification.png)
+3.	The action above displays the Notifications dialog
+4.	Download the required template depending on the target group (devices or users) by clicking on the links as shown in the figure below
 5.	Complete the downloaded template
 6.	Select the completed and saved the template from the download location
-7.	Click on the upload button as shown in figure 11.
+7.	Click on the upload button.
 8.	A status report is downloaded showing successful and failed notifications from the bulk notification operation.
 
-<!-- theme: success -->
-> ##### NOT 9
-> New Notification (Bulk)
-
-<!-- theme: success -->
-> ##### NOT 10
-> Bulk Notification Dialog Box
-
-<!-- theme: success -->
-> ##### NOT 11
-> Bulk Notification Template download and upload
+![Bulk Notification Template download and upload](../assets/images/NOT-7-Bulk-Notification-Template.png)
 
 ### View Notification
 
 An admin can also view details of a sent notification. To view notification details, an admin should do the following;
 -	Access the Notification Module’s landing page
 -	Search for the desired notification
--	Click on the Action button and select View Details as shown in NOT 12
--	The action above displays the details of the selected notification as shown in NOT 13
+-	Click on the Action button and select View Details 
+
+![View Notification Action](../assets/images/NOT-8-Notification-Action-Menu-Item.png)
+
+-	The action above displays the details of the selected notification as shown below
+
+![View Notification](../assets/images/NOT-9-View-Notification.png)
 
 ## Kit Retrieval
 
@@ -1698,24 +1589,19 @@ To export a report to excel, click on the excel icon in green as shown in the fi
 
 **Note:** The export action only exports data visible to the admin at that time. i.e. the result on the screen is 50 of 500, only the 50 that is visible to the admin can be downloaded
 
-<!-- theme: success -->
-> ##### EF 1
-> Export Functionality
+![Export Functionality](../assets/images/EF-1-Export-Functionality.png)
 
 ### Column Visibility
 
 Also, the number of columns visible to the admin on SIMROP can be controlled. This comes handy when there are too many columns for a given table and the admin wants to concentrate on a few columns. To select visible columns
--	On the view that has a table of results, click on the Select Visible Columns button as shown in COLV 1
--	Deselect the column name you want to be invisible and select the column you want to be visible as shown in COLV 2
--	The action above automatically removes the deselected columns as shown in COLV 3
+-	On the view that has a table of results, click on the Select Visible Columns button 
 
-<!-- theme: success -->
-> ##### COLV 1
-> Select Visible Column
+![Select Visible Columns](../assets/images/COLV-1-Select-Visible-Column.png)
 
-<!-- theme: success -->
-> ##### COLV 2
-> Select/Deselect Visible Column
+-	Deselect the column name you want to be invisible and select the column you want to be visible
+-	The action above automatically removes the deselected columns
+
+![Select/Deselect Visible Column](../assets/images/COLV-2-Select-Deselect-Visible-Column.png)
 
 ## Help Center
 
@@ -1723,12 +1609,10 @@ The help centre has a list of frequently asked questions on SIMROP. This gives f
 
 The help centre can be accessed even without logging in to SIMROP. This means that it is accessible if a user is logged in or not. 
 
-To access the help centre, click on the Help Center link at the top right corner of the SIMROP page (logged in or not) as shown in the figure below. The action navigates the user to the corresponding page as shown in the subsequent figure below;
+To access the help centre, click on the Help Center link at the top right corner of the SIMROP page (logged in or not) as shown in the figure below. 
 
-<!-- theme: success -->
-> ##### HC 1
-> Help Center View
+![Help Center View](../assets/images/HC-1-Help-Center-View.png)
 
-<!-- theme: success -->
-> ##### HC 2
-> Frequently Asked Questions
+The action navigates the user to the corresponding FAQ page as shown in the figure below;
+
+![Frequently Asked Questions](../assets/images/HC-2-Frequently-Asked-Questions.png)
