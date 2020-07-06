@@ -1,4 +1,4 @@
-# SIMROP PORTAL
+# Simrop Portal
 
 ## Access to SIMROP
 The new SIMROP can be accessed from http://sraa.mtnnigeria.net/ from a public network or from the MTN Domain. SIMROP can be accessed from any browser. The browser must have JavaScript enabled to enable SIMROP to run seamlessly. Below is a view of the landing page when a user visits the URL above
